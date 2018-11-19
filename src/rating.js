@@ -271,7 +271,7 @@ export default class Rating extends Component {
             style={{
               ...styles.currentRatingText,
               color: color,
-              currentRatingTextStyle
+              ...currentRatingTextStyle
             }}
           >
             {this.getCurrentRating(this.state.value)}
